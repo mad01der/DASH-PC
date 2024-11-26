@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" minBufferTime="PT1.5S" mediaPresentationDuration="PT10.0S">
+  <Period>
+    <AdaptationSet mimeType="application/ply" segmentAlignment="true">
+      <SegmentTemplate media="http://localhost/test/source/redandblack_vox10_$Number$_sample.ply" startNumber="1450" timescale="1" duration="1"/>
+      <Representation id="http://localhost/test/source/ply" codecs="ply" bandwidth="5000000"/>
+    </AdaptationSet>
+  </Period>
+</MPD>
