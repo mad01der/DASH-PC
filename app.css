@@ -1,0 +1,13 @@
+
+
+
+  
+  /* 使 #app 居中 */
+  #app {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      /* 占满页面高度 */
+  }
+  

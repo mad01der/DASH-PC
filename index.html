@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <script type="module" src="/main.js"></script>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      margin: 0;
+      color: #333;
+      font-family: "Roboto", Arial, sans-serif;
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+    }
+
+    .sidebar {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+      background-color: #d8eaff;
+      /* 左侧背景色改为浅蓝色 */
+      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    .container {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+
+    .container label {
+      font-size: 16px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+      color: #333;
+    }
+
+    canvas {
+      border: 2px solid #aaa;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      background-color: #000;
+      /* 视频播放窗口背景色为黑色 */
+    }
+
+    .orangeText {
+      color: #000;
+      /* 信息提示字体颜色改为黑色 */
+      font-size: 14px;
+    }
+
+    .blackText {
+      color: #000;
+      /* 信息提示字体颜色改为黑色 */
+      font-size: 14px;
+    }
+
+    .blackText_2 {
+      color: #000;
+      /* 信息提示字体颜色改为黑色 */
+    }
+
+    button {
+      margin-top: 10px;
+      cursor: pointer;
+      padding: 10px 15px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(45deg, #666, #888);
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    button:hover {
+      background: linear-gradient(45deg, #555, #777);
+      transform: scale(1.05);
+    }
+
+    .player {
+      margin-top: 10ch;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <div class="sidebar">
+    <div class="container">
+      <label class="blackText_2" for="mpd-select">Select a MPD file:</label>
+      <input type="text" id="mpd-select" class="long-input" placeholder="Choose a file" readonly />
+      <button id="startButton">Play!</button>
+      <button onclick="clearSelection()">Cancel</button>
+    </div>
+
+    <!-- <span class="blackText">status: </span><span class="orangeText" id="fileStatus"></span><br />
+      <span class="blackText">fileName: </span><span class="orangeText" id="fileNameDisplay"></span><br /> -->
+
+    <!-- 添加“http://localhost/test/pointcloud.mpd”选项 -->
+    <div class="container">
+      <label class="blackText_2" for="default-option">Default Options:</label>
+      <button onclick="selectDefaultFile()">http://localhost/test/pointcloud.mpd</button>
+      <button onclick="selectDefaultFile_2()">http://localhost/test/pointcloud_origin.mpd</button>
+    </div>
+  
+  </div>
+</body>
+
+<script>
+  function clearSelection() {
+    location.reload();
+  }
+  function selectDefaultFile() {
+    const defaultFile = "http://localhost/test/pointcloud.mpd";
+    document.getElementById("mpd-select").value = defaultFile;
+  }
+  function selectDefaultFile_2() {
+    const defaultFile_2 = "http://localhost/test/pointcloud_origin.mpd";
+    document.getElementById("mpd-select").value = defaultFile_2;
+  }
+</script>
+
+</html>
