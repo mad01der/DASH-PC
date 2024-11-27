@@ -5,4 +5,6 @@ Following the next steps:
 3.to start the project, you need to run "npm run dev",as the project is built on vite.
 4.there are two available mpd files : one is the pointcloud.mpd while other is pointcloud_origin.mpd. the former is used to show the improvement of the video system,the later is used to try the origin dateset.
 however,the results are not so good because the origin ply files are very huge.So the next improvement is to try draco.
+
+recommend website:https://blog.csdn.net/jxt1234and2010/article/details
                                                                                                         
