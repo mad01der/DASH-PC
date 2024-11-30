@@ -7,4 +7,7 @@ Following the next steps:
 however,the results are not so good because the origin ply files are very huge.So the next improvement is to try draco.
 
 recommend website:https://blog.csdn.net/jxt1234and2010/article/details
+
+/*2024/11/30 First update */
+add draco in draco_test.js ,the draco files can be found in public/drc, to try the draco ,change the index source file from "main.js" to "draco_test.js".
                                                                                                         
