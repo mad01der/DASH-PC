@@ -107,7 +107,7 @@ document.getElementById('startButton').addEventListener('click', function() {
   // 先清空 fileArray 数组，确保重新加载
   const fileArray = [];
   const mpdUrl = document.getElementById("mpd-select").value;
-  const interval = 1;
+  const interval = 20;
   fetchMpdAndFiles(fileArray,mpdUrl).then(() => {
     console.log("Final fileList:", fileArray);
     let currentMesh = null;
