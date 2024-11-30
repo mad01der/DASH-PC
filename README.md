@@ -10,4 +10,5 @@ recommend website:https://blog.csdn.net/jxt1234and2010/article/details
 
 /*2024/11/30 First update */
 add draco in draco_test.js ,the draco files can be found in public/drc, to try the draco ,change the index source file from "main.js" to "draco_test.js".
+According to the result of my experiment, the browser can load max point number is around 30,000. Video quality is just bearable under this situation.
                                                                                                         
