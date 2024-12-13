@@ -1,0 +1,34 @@
+/* Ensure the body takes full height */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Container for content and sidebar */
+#main-container {
+  display: flex; /* Use flexbox to place items horizontally */
+  flex: 1; /* Ensures this container takes up the available space */
+  height: 100%; /* Ensure the container takes the full height of the body */
+}
+
+/* Sidebar style */
+#sidebar {
+  width: 25%; /* 1/4 width */
+  background-color: #f0f0f0; /* Set a background color for sidebar (optional) */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the total width */
+  height: 100%; /* Ensure the sidebar height matches the container's height */
+  overflow: auto;
+}
+
+/* Content style */
+#content {
+  width: 75%; /* 3/4 width */
+  padding: 20px;
+  box-sizing: border-box; 
+  height: 100%; 
+  overflow: auto; 
+}
