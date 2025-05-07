@@ -1,0 +1,233 @@
+the 1's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 2's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 3's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 4's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 5's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 6 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 7 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 6 blocks with origin block's count is 10.
+the 8 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 7 blocks with origin block's count is 10.
+the 9 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 6 blocks with origin block's count is 10.
+the 10 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+
+the 11 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 12 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 13 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 14 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 15 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+
+the 16's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 17's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 18's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 19's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 20's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 21 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 22 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 23 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 24 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 25 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 26 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 27 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 28 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 29 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 30 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 31's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 32's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 33's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 34's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 35's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 36 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 37 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 38 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 7 blocks with origin block's count is 10.
+the 39 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 40 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+
+the 41 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 42 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 43 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 44 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 45 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+
+the 46's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 47's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 48's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 49's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 50's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 51 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 52 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 53 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 54 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 55 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 56 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 57 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 58 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 59 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 60 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+
+the 61's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 62's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 63's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 64's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 65's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 66 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 67 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 68 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 69 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 70 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 71 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 72 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 73 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 74 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 75 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 76's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 77's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 78's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 79's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 80's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 81 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 82 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 83 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 84 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 85 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+
+the 86 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 87 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 88 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 89 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 90 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+
+the 91's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 92's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 93's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 94's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 95's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 96 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 97 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 7 blocks with origin block's count is 10.
+the 98 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 7 blocks with origin block's count is 10.
+the 99 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 7 blocks with origin block's count is 10.
+the 100 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+
+the 101 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 102 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 103 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 104 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 105 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+
+the 106's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 107's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 108's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 109's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 110's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 111 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 112 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 6 blocks with origin block's count is 10.
+the 113 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 6 blocks with origin block's count is 10.
+the 114 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 6 blocks with origin block's count is 10.
+the 115 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+
+the 116 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 117 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 118 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 119 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 120 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 7 blocks with origin block's count is 10.
+
+the 121's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 122's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 123's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 124's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 125's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 126 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 127 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 128 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 129 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 130 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+
+the 131 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 132 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 133 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 134 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 135 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 136's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 137's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 138's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 139's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 140's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 141 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 142 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 143 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 144 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 8 blocks with origin block's count is 10.
+the 145 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 146 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 147 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 148 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 149 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 150 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 151's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 152's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 153's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 154's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 155's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 156 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 157 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 158 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 159 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 160 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 161 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 162 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 163 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 164 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 165 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 166's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 167's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 168's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 169's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 170's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 171 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 172 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 173 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 174 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 175 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 176 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 177 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 178 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 179 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 180 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+
+the 181's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 182's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 183's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 184's camera's positions is (0, 5.5109105961630896e-15, 90)
+the 185's camera's positions is (0, 5.5109105961630896e-15, 90)
+
+the 186 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+the 187 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 188 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 189 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 190 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 9 blocks with origin block's count is 10.
+
+the 191 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 192 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 193 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 194 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.
+the 195 frame's predictions are [0.0, 0.0, 90.0] and need to transfer 10 blocks with origin block's count is 10.

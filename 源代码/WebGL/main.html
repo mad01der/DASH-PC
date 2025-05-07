@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DASH PC</title>
+  <script type="module" src="./main.js"></script>
+  <link rel="stylesheet" href="./web_style.css">
+  <link rel="stylesheet" href="./modal.css"> 
+</head>
+
+<body>
+  
+  <div id="main-container">
+    <div id="content"></div>
+    <div id="sidebar"></div>
+  </div>
+  <script type="module">
+    import { createContent } from './src/component/content.js';
+    import { Header } from './src/component/header.js';
+    import { createSidebar } from './src/component/sidebar.js';
+    import { createModal } from './src/component/modal.js'; 
+
+    const header = Header();
+    document.body.insertBefore(header, document.body.firstChild);
+
+    const sidebar = createSidebar();
+    document.getElementById('sidebar').appendChild(sidebar);
+
+    const contentObj = createContent();
+    document.getElementById('content').appendChild(contentObj);
+
+    const modal = createModal();
+    document.body.appendChild(modal);
+  </script>
+</body>
+</html>

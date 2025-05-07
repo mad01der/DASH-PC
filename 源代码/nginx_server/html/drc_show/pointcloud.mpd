@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" minBufferTime="PT1.5S" 
+mediaPresentationDuration="PT10.0S">
+  <!--Created by JinyangLi 2024/12/3 test-->
+  <!--add size 2024/12/9 -->
+  <Period>
+    <!--draco files-->
+    <AdaptationSet mimeType="application/drc" segmentAlignment="true">
+      <SegmentTemplate timescale = "1000" media="$RepresentationID$/redandblack_vox10_$Number$.drc" startNumber="1450" />
+      <Representation id="http://172.22.186.86/drc_show/source/1" codecs="drc" bandwidth="50000000" size = "600"/>
+      <Representation id="http://172.22.186.86/drc_show/source/2" codecs="drc" bandwidth="25000000" size = "500"/>
+      <Representation id="http://172.22.186.86/drc_show/source/3" codecs="drc" bandwidth="5000000"   size = "400"/>
+    </AdaptationSet>
+  </Period>
+</MPD>

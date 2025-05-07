@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DASH PC</title>
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="web_style.css">
+  <link rel="stylesheet" href="modal.css"> <!-- 引入弹窗CSS -->
+</head>
+
+<body>
+  <div id="app"></div>
+  <div id="main-container">
+    <div id="content"></div>
+    <div id="sidebar"></div>
+  </div>
+  <script type="module">
+    import { createContent } from './src/component/content.js';
+    import { Header } from './src/component/header.js';
+    import { createSidebar } from './src/component/sidebar.js';
+    import { createModal } from './src/component/modal.js'; // 导入弹窗模块
+
+    // 渲染 Header
+    const header = Header();
+    document.body.insertBefore(header, document.body.firstChild);
+
+    // 渲染 Sidebar
+    const sidebar = createSidebar();
+    document.getElementById('sidebar').appendChild(sidebar);
+
+    // 渲染 Content
+    const contentObj = createContent();
+    document.getElementById('content').appendChild(contentObj);
+
+    // 创建弹窗并显示
+    const modal = createModal();
+    document.body.appendChild(modal);
+  </script>
+</body>
+</html>
+

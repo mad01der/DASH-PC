@@ -1,0 +1,131 @@
+<mxfile host="65bd71144e">
+    <diagram name="第 1 页" id="3_D411jbm4cj3h0DVIyZ">
+        <mxGraphModel dx="832" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_XAL-ciKeiC65yro1rYx-1" target="_XAL-ciKeiC65yro1rYx-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-1" value="中转文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3399;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_XAL-ciKeiC65yro1rYx-8" target="_XAL-ciKeiC65yro1rYx-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-8" value="下采样成不同的质量等级" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="250" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_XAL-ciKeiC65yro1rYx-10" target="_XAL-ciKeiC65yro1rYx-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-10" value="下采样后的三级质量点云文件" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="395" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_XAL-ciKeiC65yro1rYx-12" target="_XAL-ciKeiC65yro1rYx-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-12" value="draco压缩" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="250" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_XAL-ciKeiC65yro1rYx-14" target="_XAL-ciKeiC65yro1rYx-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-14" value="压缩后的三级质量的drc文件" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_XAL-ciKeiC65yro1rYx-16" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-16" value="前端获取并渲染" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#C652F8;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="827" y="260" width="123" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_XAL-ciKeiC65yro1rYx-18" target="_XAL-ciKeiC65yro1rYx-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-18" value="点云文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8A92A;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_XAL-ciKeiC65yro1rYx-19" target="_XAL-ciKeiC65yro1rYx-21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-19" value="视觉显著性计算和聚类分块" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="120" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_XAL-ciKeiC65yro1rYx-21" target="_XAL-ciKeiC65yro1rYx-23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_XAL-ciKeiC65yro1rYx-21" target="_XAL-ciKeiC65yro1rYx-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-21" value="不同块按照显著性值分别进行下采样后得到的点云文件（&lt;i&gt;可以暂时视为分块完成&lt;/i&gt;）" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_XAL-ciKeiC65yro1rYx-23" target="_XAL-ciKeiC65yro1rYx-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-23" value="附属不同组的显著性图" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="40" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="340" width="640" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_XAL-ciKeiC65yro1rYx-28" target="_XAL-ciKeiC65yro1rYx-16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="889" y="405"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="_XAL-ciKeiC65yro1rYx-28" value="服务器处理部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="405" y="390" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1090" y="180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1090" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="每9帧一组，前3帧正常播放，同时获取观察者的坐标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1420" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="视口预测算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="1181" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="前3帧的观察者的坐标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="145" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="后6帧的预测坐标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1301" y="145" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="确定传输什么块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1301" y="180" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.59;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="11" target="_XAL-ciKeiC65yro1rYx-16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1360" y="410"/>
+                            <mxPoint x="900" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="生成ply文件" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="1296" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="理论上可行，但是实际上不太好确定" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1181" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

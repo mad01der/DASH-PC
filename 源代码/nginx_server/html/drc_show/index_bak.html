@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Point Cloud Receiver</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        video {
+            width: 640px;
+            height: 360px;
+        }
+        #fileList {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Point Cloud Receiver</h1>
+        <p>Below are the PLY files being received from the MPD configuration:</p>
+        <ul id="fileList"></ul>
+    </div>
+    <script>
+        // MPD URL
+        const mpdUrl = 'http://localhost/drc/pointcloud.mpd';
+
+        async function fetchMpdAndFiles() {
+            const fileListElement = document.getElementById('fileList');
+
+            try {
+                // Fetch the MPD file
+                const response = await fetch(mpdUrl);
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch MPD file: ${response.statusText}`);
+                }
+
+                // Parse the MPD XML
+                const mpdText = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(mpdText, "application/xml");
+
+                // Extract file template and range
+                const segmentTemplate = xmlDoc.querySelector('SegmentTemplate');
+                const startNumber = parseInt(segmentTemplate.getAttribute('startNumber'), 10);
+                const mediaTemplate = segmentTemplate.getAttribute('media');
+                const totalFiles = 300; // Adjust based on your MPD configuration
+
+                // Fetch and list the files
+                for (let i = startNumber; i < startNumber + totalFiles; i++) {
+                    const fileName = mediaTemplate.replace('$Number$', i);
+                    try {
+                        const fileResponse = await fetch(fileName);
+                        const listItem = document.createElement('li');
+
+                        if (fileResponse.ok) {
+                            listItem.textContent = `Received: ${fileName}`;
+                        } else {
+                            listItem.textContent = `Missing: ${fileName}`;
+                            listItem.classList.add('error');
+                        }
+                        fileListElement.appendChild(listItem);
+                    } catch (error) {
+                        const listItem = document.createElement('li');
+                        listItem.textContent = `Error fetching ${fileName}: ${error.message}`;
+                        listItem.classList.add('error');
+                        fileListElement.appendChild(listItem);
+                    }
+                }
+            } catch (error) {
+                const errorElement = document.createElement('p');
+                errorElement.textContent = `Error fetching MPD: ${error.message}`;
+                errorElement.classList.add('error');
+                fileListElement.appendChild(errorElement);
+            }
+        }
+
+        // Run the function on page load
+        fetchMpdAndFiles();
+    </script>
+</body>
+</html>

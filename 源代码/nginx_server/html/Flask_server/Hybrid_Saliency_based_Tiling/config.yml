@@ -1,0 +1,4 @@
+blocks_num: 4
+file_folder: "./source/"
+group_size: 3
+target_folder: "./tile_results"
